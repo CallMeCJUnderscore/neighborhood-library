@@ -81,7 +81,7 @@ public class Screen {
         }//Ex: Book 1, "Pride and Prejudice" (ISBN 9780679783268), is currently checked out by Jacob Geller
 
         //display user menu
-        System.out.println("What would you like to do next?");
+        System.out.println("\nWhat would you like to do next?");
         System.out.println("    (C)heck in a book");
         System.out.println("   e(X)it to Home Screen");
         System.out.print  ("Please choose one of the options listed above: ");
