@@ -1,7 +1,9 @@
 package com.pluralsight;
 
 public class Book {
+
     /*-----------VARIABLES---------------*/
+
     private int id;
     private String isbn;
     private String title;
@@ -10,7 +12,7 @@ public class Book {
 
     /*------------CONSTRUCTORS-----------*/
 
-    public Book() {
+    public Book() { //default
         id= 0;
         isbn = "";
         title = "";
@@ -25,6 +27,7 @@ public class Book {
         this.isCheckedOut = isCheckedOut;
         this.checkedOutTo = checkedOutTo;
     }
+
     /*----------GETTERS/SETTERS----------*/
 
     public int getId() {
@@ -55,7 +58,7 @@ public class Book {
         return isCheckedOut;
     }
 
-    public void setCheckedOut(boolean checkedOut) {
+    public void setIsCheckedOut(boolean checkedOut) {
         isCheckedOut = checkedOut;
     }
 
